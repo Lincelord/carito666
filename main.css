@@ -1,0 +1,125 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+header{
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+nav{
+    padding-top: 15px;
+    text-align: center;
+    background-color: #DB5461;
+    padding-bottom: 15px;
+
+}
+nav > a {
+    font-size: 18px;
+    color: #F7F7FF;
+    font-weight: 100;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.contenedor{
+        max-height: 100vh;
+        overflow: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+        display: flex;
+        flex-direction: column;
+}
+
+
+.colorbox{
+    border-bottom: 10px solid white;
+    padding-top: 10px;
+    padding-bottom: 500px;
+    border-bottom: 100vh;
+    scroll-snap-align: start;
+    height: 160vh;
+    
+   
+}
+
+.colorbox:nth-of-type(1){
+    background-color: #593C8F;
+
+}
+.colorbox:nth-of-type(2){
+    background-color: #AB3642;
+
+}
+.colorbox:nth-of-type(3){
+    background-color: #2A8692;
+}
+.colorbox:nth-of-type(4){
+    background-color: #421D31;
+}
+
+
+h1{
+    font-size: 65px;
+    color: #FCEEEE;
+    padding: 50px 60% 0 100px ;
+
+}
+
+
+.insidebox{
+    padding-left: 50px;
+    margin-right: 350px;
+    display: flex;
+    flex-direction: row;    
+
+}
+
+.bodytext{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #F3FBC5; 
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 200px 200px 100px;
+    justify-content: center;    
+}
+
+.galeria img{
+    transition: 1s;
+    padding: 3px;
+}
+.galeria img:hover{
+    filter:saturate(1.5);
+    transform: scale(1.1);
+}
+
+p{
+    font-family: 'Shippori Mincho', serif;
+    justify-content: left;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.imgad{
+    display: flex;
+    padding-left: 900px;
+    padding-right: 100px;
+    margin-top: -350px;
+    justify-content: right;
+}
