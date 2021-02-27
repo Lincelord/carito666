@@ -127,3 +127,8 @@ p{
 .imagenesdedic{
     justify-content: right;
 }
+
+.video{
+    padding-top: 50px;
+    align-items: center;
+}
