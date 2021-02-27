@@ -117,7 +117,10 @@ p{
 }
 
 .imgad{
-    
+    display: block;
+    padding-left: 900px;
+    padding-right: 100px;
+    margin-top: -350px;
     justify-content: right;
 }
 
